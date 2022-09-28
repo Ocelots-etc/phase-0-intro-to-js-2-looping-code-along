@@ -26,12 +26,11 @@ writeCards(names, event)
 
 function countDown(positiveInteger) {
 
-  for ([i = positiveInteger]; [i > 0]; [positiveInteger--]) {
-    [loop body]
+  
+  for (let i = positiveInteger; i >= 0; i--) {
+    console.log(i);
   }
 
-  return countDown
 }
 
-countDown(positiveInteger)
 
